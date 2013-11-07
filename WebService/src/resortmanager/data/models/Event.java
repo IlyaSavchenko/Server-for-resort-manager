@@ -4,6 +4,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 import resortmanager.data.JSONMarshallObject;
 
 import java.io.IOException;
+import java.sql.Time;
 import java.util.Date;
 
 /**
@@ -17,8 +18,18 @@ public class Event implements JSONMarshallObject {
 
     private int id;
     private String name;
+
     private String place;
     private Date date;
+    private Time time;
+
+    public void setTime(Time time) {
+        this.time = time;
+    }
+
+    public Time getTime() {
+        return time;
+    }
 
     public int getId() {
         return id;
@@ -36,9 +47,11 @@ public class Event implements JSONMarshallObject {
         this.name = name;
     }
 
+
     public String getPlace() {
         return place;
     }
+
 
     public void setPlace(String place) {
         this.place = place;

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76f40550-280d-4605-a302-cd95429017fb" name="Default" comment="" />
+    <list default="true" id="76f40550-280d-4605-a302-cd95429017fb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/data/models/Event.java" afterPath="$PROJECT_DIR$/src/resortmanager/data/models/Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="WebService.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hello.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768012838" ignored="false" />
@@ -10,21 +18,22 @@
     <file path="/ClientEventsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768286584" ignored="false" />
     <file path="/ClientServiceHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768336579" ignored="false" />
     <file path="/ClimateHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768365628" ignored="false" />
-    <file path="/EventsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768396984" ignored="false" />
+    <file path="/EventsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383844054825" ignored="false" />
     <file path="/HotelHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768440897" ignored="false" />
     <file path="/ModeratorsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383838719837" ignored="false" />
-    <file path="/OrdersHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768489488" ignored="false" />
-    <file path="/ServicesHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768521267" ignored="false" />
+    <file path="/OrdersHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383844206600" ignored="false" />
+    <file path="/ServicesHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383844509199" ignored="false" />
     <file path="/ConnectionSingleton.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383838760658" ignored="false" />
     <file path="/Client.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383770473038" ignored="false" />
     <file path="/ClientTest.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383839856257" ignored="false" />
     <file path="/MarshalizibleObject.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383770530298" ignored="false" />
     <file path="/Climate.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383771084375" ignored="false" />
-    <file path="/Event.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383771400995" ignored="false" />
+    <file path="/Event.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383844029593" ignored="false" />
     <file path="/Hotel.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383773014210" ignored="false" />
     <file path="/Moderator.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383773318590" ignored="false" />
     <file path="/Order.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383774372966" ignored="false" />
     <file path="/Service.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383774679134" ignored="false" />
+    <file path="/Dummy.txt" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383843607112" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +53,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -81,7 +90,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -91,11 +100,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hotel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Hotel.java">
+      <file leaf-file-name="ClientsHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClientsHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="46" column="5" selection-start="591" selection-end="1768" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,53 +114,41 @@
       <file leaf-file-name="Event.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+            <state line="55" column="31" selection-start="997" selection-end="997" vertical-scroll-proportion="-16.821428">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Climate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Climate.java">
+      <file leaf-file-name="EventsHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="45" column="18" selection-start="598" selection-end="1664" vertical-scroll-proportion="-7.8076925">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Client.java">
+      <file leaf-file-name="OrdersHandler.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="45" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="29" column="52" selection-start="861" selection-end="861" vertical-scroll-proportion="0.25824177">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/resortmanager/data/ClientTest.java">
+      <file leaf-file-name="ServicesHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="53" selection-start="946" selection-end="946" vertical-scroll-proportion="0.5828221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Moderator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Moderator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="38" column="75" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,25 +169,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/resortmanager/data/models/Client.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/data/models/Climate.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/data/models/Event.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/data/models/Hotel.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/data/models/Moderator.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/data/models/Order.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/data/models/Service.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/data/JSONMarshallObject.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClimateHandler.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/Hello.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/HotelHandler.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/Service.java" />
         <option value="$PROJECT_DIR$/test/resortmanager/data/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/data/models/Event.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java" />
       </list>
     </option>
   </component>
@@ -201,7 +208,7 @@
     <option name="width" value="1368" />
     <option name="height" value="742" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -229,8 +236,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -367,6 +374,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resortmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -376,19 +409,23 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -472,19 +509,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -511,6 +535,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -565,6 +602,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="76f40550-280d-4605-a302-cd95429017fb" name="Default" comment="" />
@@ -580,16 +634,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.670068" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3894558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -597,10 +649,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19072948" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -669,36 +723,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClimateHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClientsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="464" selection-end="464" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/dal/ConnectionSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="9" selection-start="173" selection-end="186" vertical-scroll-proportion="0.0">
@@ -715,37 +739,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Moderator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="13" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -757,31 +753,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="45" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.477707">
-          <folding />
-        </state>
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.477707" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/resortmanager/data/ClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="53" selection-start="946" selection-end="946" vertical-scroll-proportion="0.5828221">
+        <state line="26" column="13" selection-start="634" selection-end="634" vertical-scroll-proportion="0.48076922">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="45" selection-start="2002" selection-end="2002" vertical-scroll-proportion="0.5967742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.02688172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Moderator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.02688172">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="31" selection-start="997" selection-end="997" vertical-scroll-proportion="-16.821428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClientsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="5" selection-start="591" selection-end="1768" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="18" selection-start="598" selection-end="1664" vertical-scroll-proportion="-7.8076925">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="75" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="52" selection-start="861" selection-end="861" vertical-scroll-proportion="0.25824177">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
