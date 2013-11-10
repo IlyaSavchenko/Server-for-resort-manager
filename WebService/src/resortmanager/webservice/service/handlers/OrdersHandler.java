@@ -35,11 +35,114 @@ public class OrdersHandler {
                 order.setId(resultSet.getInt("id_order"));
                 order.setName(resultSet.getString("ord_name"));
                 order.setDate(resultSet.getDate("ord_date"));
+                order.setTime(resultSet.getString("ord_time"));
                 return order.ToJSON();
             }
             throw new Exception();
         } catch (Exception e) {
             return "Error";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    @GET
+    @Produces("text/plain")
+    @Path("all")
+    public String OrdersAll(){
+        try {
+            Statement statment = connection.createStatement();
+            ResultSet resultSet = statment.executeQuery("SELECT * FROM Orders");
+            String json = "[";
+            boolean firstRecord = true;
+            while (resultSet.next()){
+                if (firstRecord) {
+                    firstRecord = false;
+                }
+                else {
+                    json = json.concat(",");
+                }
+                Order order = new Order();
+                order.setId(resultSet.getInt("id_order"));
+                order.setName(resultSet.getString("ord_name"));
+                order.setDate(resultSet.getDate("ord_date"));
+                order.setTime(resultSet.getString("ord_time"));
+                json = json.concat(order.ToJSON());
+            }
+            if (!firstRecord) {
+                return json.concat("]");
+            }
+            else {
+                throw new Exception();
+            }
+        } catch (Exception e) {
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    @GET
+    @Produces("text/plain")
+    @Path("by_name/{name}")
+    public String OrderByName(@PathParam("name") String name){
+        try {
+            Statement statment = connection.createStatement();
+            ResultSet resultSet = statment.executeQuery("SELECT * FROM Orders WHERE ord_name = '" + name + "'");
+            String json = "[";
+            boolean firstRecord = true;
+            while (resultSet.next()){
+                if (firstRecord) {
+                    firstRecord = false;
+                }
+                else {
+                    json = json.concat(",");
+                }
+                Order order = new Order();
+                order.setId(resultSet.getInt("id_order"));
+                order.setName(resultSet.getString("ord_name"));
+                order.setDate(resultSet.getDate("ord_date"));
+                order.setTime(resultSet.getString("ord_time"));
+                json = json.concat(order.ToJSON());
+            }
+            if (!firstRecord) {
+                return json.concat("]");
+            }
+            else {
+                throw new Exception();
+            }
+        } catch (Exception e) {
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    @GET
+    @Produces("text/plain")
+    @Path("by_date/{date}")
+    public String EventByDate(@PathParam("date") String date){
+        try {
+            Statement statment = connection.createStatement();
+            ResultSet resultSet = statment.executeQuery("SELECT * FROM Orders WHERE ord_date = '" + date + "'");
+            String json = "[";
+            boolean firstRecord = true;
+            while (resultSet.next()){
+                if (firstRecord) {
+                    firstRecord = false;
+                }
+                else {
+                    json = json.concat(",");
+                }
+                Order order = new Order();
+                order.setId(resultSet.getInt("id_order"));
+                order.setName(resultSet.getString("ord_name"));
+                order.setDate(resultSet.getDate("ord_date"));
+                order.setTime(resultSet.getString("ord_time"));
+                json = json.concat(order.ToJSON());
+            }
+            if (!firstRecord) {
+                return json.concat("]");
+            }
+            else {
+                throw new Exception();
+            }
+        } catch (Exception e) {
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
         }
     }
 

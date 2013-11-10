@@ -2,23 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76f40550-280d-4605-a302-cd95429017fb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClientsHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClientsHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/dal/ConnectionSingleton.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/dal/ConnectionSingleton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/HotelHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/HotelHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ModeratorsHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ModeratorsHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/data/models/Order.java" afterPath="$PROJECT_DIR$/src/resortmanager/data/models/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java" afterPath="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WebService.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Hello.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768012838" ignored="false" />
-    <file path="/fragment.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384004698366" ignored="false" />
-    <file path="/ClientsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384017183225" ignored="false" />
+    <file path="/fragment.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384019180806" ignored="false" />
+    <file path="/ClientsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384082649061" ignored="false" />
     <file path="/ClientEventsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768286584" ignored="false" />
     <file path="/ClientServiceHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768336579" ignored="false" />
     <file path="/ClimateHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768365628" ignored="false" />
-    <file path="/EventsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383844054825" ignored="false" />
-    <file path="/HotelHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383768440897" ignored="false" />
-    <file path="/ModeratorsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383838719837" ignored="false" />
-    <file path="/OrdersHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383844206600" ignored="false" />
-    <file path="/ServicesHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383844509199" ignored="false" />
+    <file path="/EventsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384027971359" ignored="false" />
+    <file path="/HotelHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384029242279" ignored="false" />
+    <file path="/ModeratorsHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384027398820" ignored="false" />
+    <file path="/OrdersHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384027938628" ignored="false" />
+    <file path="/ServicesHandler.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384028271996" ignored="false" />
     <file path="/ConnectionSingleton.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383838760658" ignored="false" />
     <file path="/Client.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383770473038" ignored="false" />
     <file path="/ClientTest.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383839856257" ignored="false" />
@@ -27,9 +34,9 @@
     <file path="/Event.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383844029593" ignored="false" />
     <file path="/Hotel.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383773014210" ignored="false" />
     <file path="/Moderator.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383773318590" ignored="false" />
-    <file path="/Order.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383774372966" ignored="false" />
+    <file path="/Order.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384027746022" ignored="false" />
     <file path="/Service.java" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383774679134" ignored="false" />
-    <file path="/Dummy.txt" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1383997483942" ignored="false" />
+    <file path="/Dummy.txt" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384078542619" ignored="false" />
     <file path="/a.dummy" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384003593687" ignored="false" />
     <file path="/Data Source" changelist="76f40550-280d-4605-a302-cd95429017fb" time="1384004340945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +58,6 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -89,6 +94,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -101,7 +108,28 @@
       <file leaf-file-name="ClientsHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClientsHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="102" selection-start="4742" selection-end="4742" vertical-scroll-proportion="0.75949365">
+            <state line="141" column="76" selection-start="5579" selection-end="5579" vertical-scroll-proportion="3.8942308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resort.Clients" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/27501609/006b48b8-921b-49f5-83b8-3aa1269f27d2/resort..Clients">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Data Source" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://db-console:/27501609/006b48b8-921b-49f5-83b8-3aa1269f27d2/">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="81" selection-end="91" vertical-scroll-proportion="-0.51724136">
               <folding />
             </state>
           </provider>
@@ -110,117 +138,46 @@
       <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="67" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
+            <state line="89" column="36" selection-start="2053" selection-end="2053" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JAVA/resortmanager" pinned="false" current="false" current-in-tab="false">
-        <entry file="uml://JAVA/resortmanager">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>resortmanager</OriginalElement>
-              <nodes>
-                <node x="1297.7142857142858" y="116.0">resortmanager.data.models.Client</node>
-                <node x="940.5" y="415.0">resortmanager.webservice.service.handlers.ModeratorsHandler</node>
-                <node x="1496.5" y="427.5">resortmanager.data.ClientTest</node>
-                <node x="1720.0" y="152.0">resortmanager.data.models.Order</node>
-                <node x="2009.0" y="140.0">resortmanager.data.models.Hotel</node>
-                <node x="980.5" y="0.0">resortmanager.data.JSONMarshallObject</node>
-                <node x="287.0" y="565.0">resortmanager.webservice.service.handlers.Hello</node>
-                <node x="0.0" y="565.0">resortmanager.webservice.dal.ConnectionSingleton</node>
-                <node x="1222.5" y="415.0">resortmanager.webservice.service.handlers.ClientsHandler</node>
-                <node x="756.0" y="565.0">resortmanager.webservice.service.handlers.ClimateHandler</node>
-                <node x="0.0" y="691.0">resortmanager.webservice.service.handlers.HotelHandler</node>
-                <node x="1733.5" y="427.0">resortmanager.webservice.service.handlers.OrdersHandler</node>
-                <node x="621.5" y="427.0">resortmanager.webservice.service.handlers.EventsHandler</node>
-                <node x="523.0" y="565.0">resortmanager.webservice.service.Service</node>
-                <node x="907.0" y="116.0">resortmanager.data.models.Moderator</node>
-                <node x="309.0" y="152.0">resortmanager.data.models.Climate</node>
-                <node x="23.5" y="427.0">resortmanager.webservice.service.handlers.ServicesHandler</node>
-                <node x="598.0" y="140.0">resortmanager.data.models.Event</node>
-                <node x="0.0" y="140.0">resortmanager.data.models.Service</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="resortmanager.data.models.Climate" target="resortmanager.data.JSONMarshallObject">
-                  <point x="0.0" y="-88.5" />
-                  <point x="443.5" y="86.0" />
-                  <point x="1019.5" y="86.0" />
-                  <point x="-52.0" y="28.0" />
-                </edge>
-                <edge source="resortmanager.webservice.service.handlers.OrdersHandler" target="resortmanager.data.models.Order">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="resortmanager.data.models.Service" target="resortmanager.data.JSONMarshallObject">
-                  <point x="0.0" y="-100.5" />
-                  <point x="144.5" y="76.0" />
-                  <point x="993.5" y="76.0" />
-                  <point x="-78.0" y="28.0" />
-                </edge>
-                <edge source="resortmanager.data.models.Client" target="resortmanager.data.JSONMarshallObject">
-                  <point x="0.0" y="-124.5" />
-                  <point x="1475.7142857142858" y="96.0" />
-                  <point x="1097.5" y="96.0" />
-                  <point x="26.0" y="28.0" />
-                </edge>
-                <edge source="resortmanager.webservice.service.handlers.ClientsHandler" target="resortmanager.data.models.Client">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="resortmanager.data.models.Hotel" target="resortmanager.data.JSONMarshallObject">
-                  <point x="0.0" y="-100.5" />
-                  <point x="2153.5" y="76.0" />
-                  <point x="1149.5" y="76.0" />
-                  <point x="78.0" y="28.0" />
-                </edge>
-                <edge source="resortmanager.webservice.service.handlers.ServicesHandler" target="resortmanager.data.models.Service">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="resortmanager.webservice.service.handlers.ModeratorsHandler" target="resortmanager.data.models.Moderator">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="resortmanager.data.models.Moderator" target="resortmanager.data.JSONMarshallObject">
-                  <point x="0.0" y="-124.5" />
-                  <point x="0.0" y="28.0" />
-                </edge>
-                <edge source="resortmanager.data.ClientTest" target="resortmanager.data.models.Client">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="resortmanager.webservice.service.handlers.EventsHandler" target="resortmanager.data.models.Event">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="resortmanager.data.models.Event" target="resortmanager.data.JSONMarshallObject">
-                  <point x="0.0" y="-100.5" />
-                  <point x="742.5" y="96.0" />
-                  <point x="1045.5" y="96.0" />
-                  <point x="-26.0" y="28.0" />
-                </edge>
-                <edge source="resortmanager.data.models.Order" target="resortmanager.data.JSONMarshallObject">
-                  <point x="0.0" y="-88.5" />
-                  <point x="1854.5" y="86.0" />
-                  <point x="1123.5" y="86.0" />
-                  <point x="52.0" y="28.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-82.0" y="98.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Inner Classes</Category>
-                <Category>Properties</Category>
-                <Category>Constructors</Category>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
+      <file leaf-file-name="ServicesHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="25" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HotelHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/HotelHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="33" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventsHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="13" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="60" column="32" selection-start="1609" selection-end="5357" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -243,21 +200,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/resortmanager/data/models/Hotel.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/data/models/Moderator.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/data/models/Order.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/data/models/Service.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/data/JSONMarshallObject.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClimateHandler.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/Hello.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/HotelHandler.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/Service.java" />
         <option value="$PROJECT_DIR$/test/resortmanager/data/ClientTest.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/data/models/Event.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/webservice/dal/ConnectionSingleton.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ModeratorsHandler.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/data/models/Order.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java" />
-        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java" />
+        <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/HotelHandler.java" />
         <option value="db-console:/27501609/006b48b8-921b-49f5-83b8-3aa1269f27d2/" />
+        <option value="dbtable:/27501609/006b48b8-921b-49f5-83b8-3aa1269f27d2/resort..Clients" />
         <option value="$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClientsHandler.java" />
       </list>
     </option>
@@ -299,7 +256,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,28 +263,6 @@
               <option name="myItemId" value="WebService" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.7 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="junit-4.10.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -337,24 +271,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,128 +285,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resortmanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resortmanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resortmanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resortmanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resortmanager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -500,21 +301,21 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="true" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="File.Encoding" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Рабочий стол" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -598,19 +399,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -637,6 +425,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -722,35 +523,56 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1368" height="742" extended-state="7" />
+    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6122449" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2819149" sideWeight="0.670068" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3894558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3894558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3894558" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.6020408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19072948" sideWeight="0.6105442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31155014" sideWeight="0.6717687" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -819,134 +641,115 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/resortmanager/data/ClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="634" selection-end="634" vertical-scroll-proportion="0.48076922">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.02688172">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Moderator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.02688172">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="31" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="18" selection-start="598" selection-end="1664" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="75" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="53" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/dal/ConnectionSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="173" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/resortmanager.webservice.dal">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>resortmanager.webservice.dal</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">resortmanager.webservice.dal.ConnectionSingleton</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-199.5" y="99.5" />
-          <SelectedNodes>
-            <node>resortmanager.webservice.dal.ConnectionSingleton</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/resortmanager.webservice.service">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>resortmanager.webservice.service</OriginalElement>
-          <nodes>
-            <node x="0.0" y="77.0">resortmanager.webservice.service.Service</node>
-            <node x="0.0" y="0.0">resortmanager.webservice.service.handlers</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-212.5" y="138.0" />
-          <SelectedNodes>
-            <node>resortmanager.webservice.service.Service</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/resortmanager.webservice.service.handlers">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>resortmanager.webservice.service.handlers</OriginalElement>
           <nodes>
-            <node x="0.0" y="0.0">resortmanager.webservice.service.handlers.ModeratorsHandler</node>
             <node x="0.0" y="154.0">resortmanager.webservice.service.handlers.ClientsHandler</node>
-            <node x="184.0" y="231.0">resortmanager.webservice.service.handlers.HotelHandler</node>
-            <node x="0.0" y="231.0">resortmanager.webservice.service.handlers.OrdersHandler</node>
+            <node x="0.0" y="0.0">resortmanager.webservice.service.handlers.ModeratorsHandler</node>
             <node x="196.0" y="77.0">resortmanager.webservice.service.handlers.ClimateHandler</node>
+            <node x="0.0" y="231.0">resortmanager.webservice.service.handlers.OrdersHandler</node>
+            <node x="184.0" y="231.0">resortmanager.webservice.service.handlers.HotelHandler</node>
             <node x="185.0" y="154.0">resortmanager.webservice.service.handlers.EventsHandler</node>
             <node x="0.0" y="77.0">resortmanager.webservice.service.handlers.ServicesHandler</node>
             <node x="0.0" y="308.0">resortmanager.webservice.service.handlers.Hello</node>
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="0.8694444444444445" x="-165.96166134185302" y="386.038338658147" />
+          <settings layout="Hierarchic Group" zoom="0.8694444444444445" x="-166.0" y="386.0" />
           <SelectedNodes>
             <node>resortmanager.webservice.service.handlers.ClientsHandler</node>
           </SelectedNodes>
           <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jersey-bundle-1.12.jar!/com/sun/jersey/spi/inject/Errors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="3253" selection-end="3253" vertical-scroll-proportion="3.8947368" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/LICENSE.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="112" selection-start="475" selection-end="475" vertical-scroll-proportion="0.28355387" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="24" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ModeratorsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="62" selection-start="5553" selection-end="5553" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/dal/ConnectionSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="679" selection-end="679" vertical-scroll-proportion="0.7808219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/OrdersHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="32" selection-start="1609" selection-end="5357" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ServicesHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="25" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/EventsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/resortmanager.webservice">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>resortmanager.webservice</OriginalElement>
+          <nodes>
+            <node x="" y="">resortmanager.webservice.dal.ConnectionSingleton</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.ModeratorsHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.ClientsHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.ClimateHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.OrdersHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.HotelHandler</node>
+            <node x="" y="">resortmanager.webservice.service.Service</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.EventsHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.ServicesHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.Hello</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6117511520737328" x="365.0" y="424.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
@@ -958,124 +761,76 @@
           <ID>JAVA</ID>
           <OriginalElement>resortmanager</OriginalElement>
           <nodes>
-            <node x="1297.7142857142858" y="116.0">resortmanager.data.models.Client</node>
-            <node x="940.5" y="415.0">resortmanager.webservice.service.handlers.ModeratorsHandler</node>
-            <node x="1496.5" y="427.5">resortmanager.data.ClientTest</node>
-            <node x="1720.0" y="152.0">resortmanager.data.models.Order</node>
-            <node x="2009.0" y="140.0">resortmanager.data.models.Hotel</node>
-            <node x="980.5" y="0.0">resortmanager.data.JSONMarshallObject</node>
-            <node x="287.0" y="565.0">resortmanager.webservice.service.handlers.Hello</node>
-            <node x="0.0" y="565.0">resortmanager.webservice.dal.ConnectionSingleton</node>
-            <node x="1222.5" y="415.0">resortmanager.webservice.service.handlers.ClientsHandler</node>
-            <node x="756.0" y="565.0">resortmanager.webservice.service.handlers.ClimateHandler</node>
-            <node x="0.0" y="691.0">resortmanager.webservice.service.handlers.HotelHandler</node>
-            <node x="1733.5" y="427.0">resortmanager.webservice.service.handlers.OrdersHandler</node>
-            <node x="621.5" y="427.0">resortmanager.webservice.service.handlers.EventsHandler</node>
-            <node x="523.0" y="565.0">resortmanager.webservice.service.Service</node>
-            <node x="907.0" y="116.0">resortmanager.data.models.Moderator</node>
-            <node x="309.0" y="152.0">resortmanager.data.models.Climate</node>
-            <node x="23.5" y="427.0">resortmanager.webservice.service.handlers.ServicesHandler</node>
-            <node x="598.0" y="140.0">resortmanager.data.models.Event</node>
-            <node x="0.0" y="140.0">resortmanager.data.models.Service</node>
+            <node x="" y="">resortmanager.data.models.Client</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.ModeratorsHandler</node>
+            <node x="" y="">resortmanager.data.models.Order</node>
+            <node x="" y="">resortmanager.data.models.Hotel</node>
+            <node x="" y="">resortmanager.data.JSONMarshallObject</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.Hello</node>
+            <node x="" y="">resortmanager.webservice.dal.ConnectionSingleton</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.ClientsHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.ClimateHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.OrdersHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.HotelHandler</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.EventsHandler</node>
+            <node x="" y="">resortmanager.webservice.service.Service</node>
+            <node x="" y="">resortmanager.data.models.Moderator</node>
+            <node x="" y="">resortmanager.data.models.Climate</node>
+            <node x="" y="">resortmanager.webservice.service.handlers.ServicesHandler</node>
+            <node x="" y="">resortmanager.data.models.Event</node>
+            <node x="" y="">resortmanager.data.models.Service</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="resortmanager.data.models.Climate" target="resortmanager.data.JSONMarshallObject">
-              <point x="0.0" y="-88.5" />
-              <point x="443.5" y="86.0" />
-              <point x="1019.5" y="86.0" />
-              <point x="-52.0" y="28.0" />
-            </edge>
-            <edge source="resortmanager.webservice.service.handlers.OrdersHandler" target="resortmanager.data.models.Order">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="resortmanager.data.models.Service" target="resortmanager.data.JSONMarshallObject">
-              <point x="0.0" y="-100.5" />
-              <point x="144.5" y="76.0" />
-              <point x="993.5" y="76.0" />
-              <point x="-78.0" y="28.0" />
-            </edge>
-            <edge source="resortmanager.data.models.Client" target="resortmanager.data.JSONMarshallObject">
-              <point x="0.0" y="-124.5" />
-              <point x="1475.7142857142858" y="96.0" />
-              <point x="1097.5" y="96.0" />
-              <point x="26.0" y="28.0" />
-            </edge>
-            <edge source="resortmanager.webservice.service.handlers.ClientsHandler" target="resortmanager.data.models.Client">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="resortmanager.data.models.Hotel" target="resortmanager.data.JSONMarshallObject">
-              <point x="0.0" y="-100.5" />
-              <point x="2153.5" y="76.0" />
-              <point x="1149.5" y="76.0" />
-              <point x="78.0" y="28.0" />
-            </edge>
-            <edge source="resortmanager.webservice.service.handlers.ServicesHandler" target="resortmanager.data.models.Service">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="resortmanager.webservice.service.handlers.ModeratorsHandler" target="resortmanager.data.models.Moderator">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="resortmanager.data.models.Moderator" target="resortmanager.data.JSONMarshallObject">
-              <point x="0.0" y="-124.5" />
-              <point x="0.0" y="28.0" />
-            </edge>
-            <edge source="resortmanager.data.ClientTest" target="resortmanager.data.models.Client">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="resortmanager.webservice.service.handlers.EventsHandler" target="resortmanager.data.models.Event">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="resortmanager.data.models.Event" target="resortmanager.data.JSONMarshallObject">
-              <point x="0.0" y="-100.5" />
-              <point x="742.5" y="96.0" />
-              <point x="1045.5" y="96.0" />
-              <point x="-26.0" y="28.0" />
-            </edge>
-            <edge source="resortmanager.data.models.Order" target="resortmanager.data.JSONMarshallObject">
-              <point x="0.0" y="-88.5" />
-              <point x="1854.5" y="86.0" />
-              <point x="1123.5" y="86.0" />
-              <point x="52.0" y="28.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-82.0" y="98.0" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="1209.0" y="678.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Inner Classes</Category>
-            <Category>Properties</Category>
-            <Category>Constructors</Category>
             <Category>Fields</Category>
             <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://db-console:/27501609/006b48b8-921b-49f5-83b8-3aa1269f27d2/">
+    <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/HotelHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="116" selection-end="139" vertical-scroll-proportion="0.21505377">
-          <folding />
+        <state line="78" column="33" selection-start="2922" selection-end="2922" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resortmanager/data/models/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="67" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0">
+        <state line="89" column="36" selection-start="2053" selection-end="2053" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/27501609/006b48b8-921b-49f5-83b8-3aa1269f27d2/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="81" selection-end="91" vertical-scroll-proportion="-0.51724136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/27501609/006b48b8-921b-49f5-83b8-3aa1269f27d2/resort..Clients">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resortmanager/webservice/service/handlers/ClientsHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="102" selection-start="4742" selection-end="4742" vertical-scroll-proportion="0.75949365">
+        <state line="141" column="76" selection-start="5579" selection-end="5579" vertical-scroll-proportion="3.8942308">
           <folding />
         </state>
       </provider>

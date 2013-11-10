@@ -4,6 +4,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 import resortmanager.data.JSONMarshallObject;
 
 import java.io.IOException;
+import java.sql.Time;
 import java.util.Date;
 
 /**
@@ -19,6 +20,18 @@ public class Order implements JSONMarshallObject {
     private int clientId;
     private String name;
     private Date date;
+    private String time;
+
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+
 
     public int getId() {
         return id;
