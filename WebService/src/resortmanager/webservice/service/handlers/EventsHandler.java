@@ -4,10 +4,7 @@ import resortmanager.data.models.Client;
 import resortmanager.data.models.Event;
 import resortmanager.webservice.dal.ConnectionSingleton;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -149,4 +146,54 @@ public class EventsHandler {
             return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
         }
     }
-}
+
+
+        @GET
+        @Produces("text/plain")
+        @Path("add")
+        public String AddEvent(@QueryParam("name") String name, @QueryParam("place") String place, @QueryParam("date") String date, @QueryParam("time") String time){
+            try {
+                Statement statment = connection.createStatement();
+                statment.executeUpdate("INSERT INTO Events(ev_name, ev_place, ev_date, ev_time) " +
+                        "VALUES ('" + name + "', '" + place + "','" + date +"', " + time + ")");
+                //throw new Exception();
+                return "register success";
+            } catch (Exception e) {
+
+                return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+            }
+        }
+
+    @GET
+    @Produces("text/plain")
+    @Path("changedate")
+    public String ChangeDateEvent(@QueryParam("date") String date, @QueryParam("name") String name){
+        try {
+            Statement statment = connection.createStatement();
+            statment.executeUpdate("UPDATE Events SET ev_date = '" + date + "' WHERE ev_name = " + name + "");
+            //throw new Exception();
+            return "register success";
+        } catch (Exception e) {
+
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    @GET
+    @Produces("text/plain")
+    @Path("changetime")
+    public String ChangeTimeEvent(@QueryParam("time") String time, @QueryParam("name") String name){
+        try {
+            Statement statment = connection.createStatement();
+            statment.executeUpdate("UPDATE Events SET ev_time = '" + time + "' WHERE ev_name = " + name + "");
+            //throw new Exception();
+            return "register success";
+        } catch (Exception e) {
+
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    }
+
+

@@ -22,6 +22,15 @@ public class Client implements JSONMarshallObject {
     private String middlename;
     private Date birthday;
     private int passport;
+    private String login;
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getLogin() {
+        return login;
+    }
 
     public int getId() {
         return id;

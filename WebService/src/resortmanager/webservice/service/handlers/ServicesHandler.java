@@ -5,10 +5,7 @@ import resortmanager.data.models.Order;
 import resortmanager.data.models.Service;
 import resortmanager.webservice.dal.ConnectionSingleton;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -147,6 +144,37 @@ public class ServicesHandler {
                 throw new Exception();
             }
         } catch (Exception e) {
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+
+    @GET
+    @Produces("text/plain")
+    @Path("changename")
+    public String ChangeDateEvent(@QueryParam("date") String date, @QueryParam("name") String name){
+        try {
+            Statement statment = connection.createStatement();
+            statment.executeUpdate("UPDATE Events SET ev_date = '" + date + "' WHERE ev_name = " + name + "");
+            //throw new Exception();
+            return "register success";
+        } catch (Exception e) {
+
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    @GET
+    @Produces("text/plain")
+    @Path("changetime")
+    public String ChangeTimeEvent(@QueryParam("time") String time, @QueryParam("name") String name){
+        try {
+            Statement statment = connection.createStatement();
+            statment.executeUpdate("UPDATE Events SET ev_time = '" + time + "' WHERE ev_name = " + name + "");
+            //throw new Exception();
+            return "register success";
+        } catch (Exception e) {
+
             return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
         }
     }
