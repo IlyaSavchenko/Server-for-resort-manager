@@ -4,7 +4,6 @@ import org.codehaus.jackson.map.ObjectMapper;
 import resortmanager.data.JSONMarshallObject;
 
 import java.io.IOException;
-import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,44 +12,38 @@ import java.util.Date;
  * Time: 12:46 AM
  * To change this template use File | Settings | File Templates.
  */
-public class Climate implements JSONMarshallObject {
+public class ClientOrder implements JSONMarshallObject {
 
-    private int id;
-    private String name;
-    private Date date;
-    private String value;
+    private int clientId;
+    private int orderId;
+    private String time;
 
-    public int getId() {
-        return id;
+    public String getTime() {
+        return time;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setTime(String time) {
+        this.time = time;
     }
 
-    public String getName() {
-        return name;
+    public int getClientId() {
+        return clientId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setClientId(int clientId) {
+        this.clientId = clientId;
     }
 
-    public Date getDate() {
-        return date;
+
+    public int getOrderId() {
+        return orderId;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
     }
 
-    public String getValue() {
-        return value;
-    }
 
-    public void setValue(String value) {
-        this.value = value;
-    }
 
     @Override
     public String ToJSON() {
@@ -64,14 +57,14 @@ public class Climate implements JSONMarshallObject {
         return json;
     }
 
-    public static Climate FromJSON(String jsonString) {
-        Climate climate = new Climate();
+    public static ClientOrder FromJSON(String jsonString) {
         ObjectMapper mapper = new ObjectMapper();
+        ClientOrder co = new ClientOrder();
         try {
-            climate = mapper.readValue(jsonString, Climate.class);
+            co = mapper.readValue(jsonString, ClientOrder.class);
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-        return climate;
+        return co;
     }
 }

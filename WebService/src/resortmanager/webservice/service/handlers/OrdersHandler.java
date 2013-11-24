@@ -58,10 +58,7 @@ public class OrdersHandler {
                     json = json.concat(",");
                 }
                 Order order = new Order();
-                order.setId(resultSet.getInt("id_order"));
                 order.setName(resultSet.getString("ord_name"));
-                order.setDate(resultSet.getDate("ord_date"));
-                order.setTime(resultSet.getString("ord_time"));
                 json = json.concat(order.ToJSON());
             }
             if (!firstRecord) {
@@ -74,6 +71,7 @@ public class OrdersHandler {
             return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
         }
     }
+
 
     @GET
     @Produces("text/plain")
@@ -143,13 +141,15 @@ public class OrdersHandler {
         }
     }
 
+
+
     @GET
     @Produces("text/plain")
-    @Path("changename")
-    public String ChangeDateEvent(@QueryParam("date") String date, @QueryParam("name") String name){
+    @Path("changedate")
+    public String ChangeDateOrder(@QueryParam("date") String date, @QueryParam("name") String name){
         try {
             Statement statment = connection.createStatement();
-            statment.executeUpdate("UPDATE Events SET ev_date = '" + date + "' WHERE ev_name = " + name + "");
+            statment.executeUpdate("UPDATE Orders SET ord_date = '" + date + "' WHERE ord_name = " + name + "");
             //throw new Exception();
             return "register success";
         } catch (Exception e) {
@@ -157,5 +157,52 @@ public class OrdersHandler {
             return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
         }
     }
+
+    @GET
+    @Produces("text/plain")
+    @Path("changetime")
+    public String ChangeDateEvent(@QueryParam("time") String time, @QueryParam("name") String name){
+        try {
+            Statement statment = connection.createStatement();
+            statment.executeUpdate("UPDATE Orders SET ord_time= '" + time + "' WHERE ord_name = " + name + "");
+            //throw new Exception();
+            return "register success";
+        } catch (Exception e) {
+
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    @GET
+    @Produces("text/plain")
+    @Path("make")
+    public String MakeOrder(@QueryParam("name") String name, @QueryParam("date") String date, @QueryParam("time") String time){
+        try {
+            Statement statment = connection.createStatement();
+            statment.executeUpdate("INSERT INTO Orders(ord_name, ord_date, ord_time) VALUES ('" + name + "','" + date + "', '" + time + "')");
+            //throw new Exception();
+            return "register success";
+        } catch (Exception e) {
+
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+    @GET
+    @Produces("text/plain")
+    @Path("add")
+    public String AddNewOrder(@QueryParam("name") String name, @QueryParam("date") String date, @QueryParam("time") String time){
+        try {
+            Statement statment = connection.createStatement();
+            statment.executeUpdate("INSERT INTO Orders(ord_name) VALUES ('" + name + "'                ");
+            //throw new Exception();
+            return "register success";
+        } catch (Exception e) {
+
+            return "ERROR";  //To change body of catch statement use File | Settings | File Templates.
+        }
+    }
+
+
 
 }

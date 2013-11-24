@@ -4,37 +4,54 @@ import org.codehaus.jackson.map.ObjectMapper;
 import resortmanager.data.JSONMarshallObject;
 
 import java.io.IOException;
-import java.sql.Time;
-import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
  * User: ilyasavchenko
  * Date: 11/7/13
- * Time: 1:29 AM
+ * Time: 12:46 AM
  * To change this template use File | Settings | File Templates.
  */
-public class Order implements JSONMarshallObject {
+public class ClientService implements JSONMarshallObject {
 
-    private int id;
-    private String name;
+    private int clientId;
+    private int serviceId;
+    private String date;
+    private String time;
 
-
-    public int getId() {
-        return id;
+    public String getTime() {
+        return time;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setTime(String time) {
+        this.time = time;
     }
 
-    public String getName() {
-        return name;
+    public int getClientId() {
+        return clientId;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setClientId(int clientId) {
+        this.clientId = clientId;
     }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+
+    public int getServiceId() {
+        return serviceId;
+    }
+
+    public void setServiceId(int serviceId) {
+        this.serviceId = serviceId;
+    }
+
 
 
     @Override
@@ -49,14 +66,14 @@ public class Order implements JSONMarshallObject {
         return json;
     }
 
-    public static Order FromJSON(String jsonString) {
-        Order order = new Order();
+    public static ClientService FromJSON(String jsonString) {
         ObjectMapper mapper = new ObjectMapper();
+        ClientService co = new ClientService();
         try {
-            order = mapper.readValue(jsonString, Order.class);
+            co = mapper.readValue(jsonString, ClientService.class);
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-        return order;
+        return co;
     }
 }
