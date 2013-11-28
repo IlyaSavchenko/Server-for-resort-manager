@@ -4,13 +4,12 @@ import org.codehaus.jackson.map.ObjectMapper;
 import resortmanager.data.JSONMarshallObject;
 
 import java.io.IOException;
-import java.io.OutputStream;
 import java.util.Date;
 
 /**
  * Created with IntelliJ IDEA.
  * User: ilyasavchenko
- * Date: 11/7/13
+ * DateIOHandler: 11/7/13
  * Time: 12:17 AM
  * To change this template use File | Settings | File Templates.
  */

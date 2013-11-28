@@ -11,7 +11,7 @@ import java.sql.Statement;
 /**
  * Created with IntelliJ IDEA.
  * User: ilyasavchenko
- * Date: 11/7/13
+ * DateIOHandler: 11/7/13
  * Time: 12:03 AM
  * To change this template use File | Settings | File Templates.
  */

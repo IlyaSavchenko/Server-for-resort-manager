@@ -8,7 +8,7 @@ import javax.ws.rs.Produces;
 /**
  * Created with IntelliJ IDEA.
  * User: ilyasavchenko
- * Date: 11/6/13
+ * DateIOHandler: 11/6/13
  * Time: 11:58 PM
  * To change this template use File | Settings | File Templates.
  */

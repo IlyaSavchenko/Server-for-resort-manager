@@ -9,40 +9,48 @@ import java.io.IOException;
  * Created with IntelliJ IDEA.
  * User: ilyasavchenko
  * DateIOHandler: 11/7/13
- * Time: 12:46 AM
+ * Time: 12:17 AM
  * To change this template use File | Settings | File Templates.
  */
-public class ClientOrder implements JSONMarshallObject {
+public class DateIO implements JSONMarshallObject {
 
-    private int clientId;
-    private int orderId;
-    private String time;
+    private int idHotel;
+    private  int idClient;
+    private String in;
+    private String out;
 
-    public String getTime() {
-        return time;
+
+    public int getIdHotel() {
+        return idHotel;
     }
 
-    public void setTime(String time) {
-        this.time = time;
+    public void setIdHotel(int idHotel) {
+        this.idHotel = idHotel;
     }
 
-    public int getClientId() {
-        return clientId;
+    public int getIdClient() {
+        return idClient;
     }
 
-    public void setClientId(int clientId) {
-        this.clientId = clientId;
+    public void setIdClient(int idClient) {
+        this.idClient = idClient;
     }
 
-
-    public int getOrderId() {
-        return orderId;
+    public String getIn() {
+        return in;
     }
 
-    public void setOrderId(int orderId) {
-        this.orderId = orderId;
+    public void setIn(String in) {
+        this.in = in;
     }
 
+    public String getOut() {
+        return out;
+    }
+
+    public void setOut(String out) {
+        this.out = out;
+    }
 
 
     @Override
@@ -57,14 +65,14 @@ public class ClientOrder implements JSONMarshallObject {
         return json;
     }
 
-    public static ClientOrder FromJSON(String jsonString) {
+    public static DateIO FromJSON(String jsonString) {
         ObjectMapper mapper = new ObjectMapper();
-        ClientOrder co = new ClientOrder();
+        DateIO dateIO = new DateIO();
         try {
-            co = mapper.readValue(jsonString, ClientOrder.class);
+            dateIO = mapper.readValue(jsonString, DateIO.class);
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-        return co;
+        return dateIO;
     }
 }

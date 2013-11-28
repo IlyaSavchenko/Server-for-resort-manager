@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+</head>
+<body>
+	<form>
+		<p>Login: <input type="text" id="login"></p>
+		<p>Password:<input type="password" id="pass"></p>
+		<!-- <input type="submit" id="ok" value="Ok"> -->
+		<button id="test" value="test" onclick="onButtonClick"/>
+	</form>
+	<script src="js/jquery.min.js" />
+	<script type="text/javascript">
+		function onButtonClick() {
+			$.ajax({
+				url: "localhost:9998/api/clients/by_id/1",
+				context: document.body
+			}).done(function (data) {
+				console.log(data.toSource());
+			});
+		}
+	</script>
+</body>
+</html>
